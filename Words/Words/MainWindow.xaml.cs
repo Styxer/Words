@@ -23,6 +23,7 @@ namespace Words
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new WindowViewModel(this);
         }
     }
 }
